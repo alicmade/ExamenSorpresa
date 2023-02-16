@@ -1,0 +1,14 @@
+@startuml
+interface dialogo{}
+
+class dialogoMac implements  dialogo{}
+
+class dioloWindows implements  dialogo{}
+
+interface fabricaDialogo{}
+
+class fabricaDialogoMac implements  fabricaDialogo{}
+
+class fabricaDioloWindows implements  fabricaDialogo{}
+@enduml
+
